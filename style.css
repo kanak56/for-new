@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #15181e;
+    font-family: Gilroy, sans-serif;
+    color: #fff;
+}
+header{
+    padding-top: 50px;
+    position: relative;
+}
+nav{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 100px;
+}
+.container {
+    text-align: center;
+}
+.left a img{
+    width: 100px;
+}
+.fa-mitten{
+    font-size: 30px;
+    color: blueviolet;
+}
+.right small{
+    font-size:15px;
+    font-weight: 600;
+}
+.watermark{
+        position: absolute;
+        top: -220px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.3;
+        width: 100%;
+        color: #fff;
+}
+.watermark-info{
+    color: #2f3542;
+    font-size: 380px;
+    font-weight: 500;
+    transform: scale(1, -1);
+    user-select: none;
+    width: 100%;
+    overflow-x: hidden;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.content{
+    width: 430px;
+    margin: auto;
+}
+.content .title-one p {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+}
+.content .title-two {
+    text-align: center;
+    transform: rotate(-2deg);
+    margin-top: 5px;
+}
+.dot {
+    font-size: 100px;
+    width: 20px;
+    height: 20px;
+    color: #725bfe;
+    z-index: 5;
+}
+.dot1 {
+    position: absolute;
+    left: -16px;
+    top: -90px;
+}
+.dot2 {
+    position: absolute;
+    left: -17px;
+    top: 22px;
+}
+.dot3 {
+    position: absolute;
+    left: 421px;
+    top: -90px;
+}
+.dot4 {
+    position: absolute;
+    left: 422px;
+    top: 22px;
+}
+.content .title-two .circle1 {
+    width: 105px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f9b456;
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    z-index: -10;
+}
+.content .title-two .circle2 {
+    width: 180px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f36f6e;
+    position: absolute;
+    left: 120px;
+    top: 22px;
+    z-index: -11;
+}
+.content .title-two .circle3 {
+    width: 120px;
+    height: 80px;
+    border-radius: 50%;
+    background: #c980f0;
+    position: absolute;
+    left: 220px;
+    top: 20px;
+    z-index: -10;
+}
+.content .title-two .circle4 {
+    width: 100px;
+    height: 70px;
+    border-radius: 43%;
+    background: #2d55f6;
+    position: absolute;
+    left: 300px;
+    top: 30px;
+    z-index: -9;
+}
+ .content .title-two .multiply {
+    color: white;
+    mix-blend-mode: darken;
+    background-color: #15181e;
+}
+.content .title-two .title-three p {
+    font-weight: 600;
+    font-size: 63px;
+    line-height: 80px;
+    border: 3px solid #725bfe;
+    padding: 10px;
+}
+.social-link{
+    font-size: 30px;
+}
+.social-link .fab{
+    color: darkturquoise;
+}
+.site-footer {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 40px;
+    z-index: 999!important;
+}
+.site-footer .inner {
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-gap: 30px;
+}
+.site-footer .inner .social-link a {
+    text-decoration: none;
+    padding-right: 20px;
+}
+.cookies.show {
+    opacity: 1;
+    transition-delay: 1000ms;
+}
+.cookies {
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: all 500ms ease-out;
+}
+.cookies-container {
+    display: flex;
+    justify-content: center;
+    background: #5957d5;
+    width: 386px;
+    height: 60px;
+    border-radius: 15px;
+}
+.icon {
+    margin: auto 10px;
+}
+img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+.text2 {
+    margin: auto 10px;
+    font-size: 12px;
+}
+
+element.style {
+}
+.buttons {
+    display: flex;
+}
+.buttons .accept-cookies {
+    margin: auto 10px;
+    cursor: pointer;
+    font-size: 12px;
+    background: none;
+    border: none;
+    color: #fff;
+}
+.buttons .close-cookies {
+    margin: auto 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+}
+.site-footer .right p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    color: #7c8da6;
+}
+.copyright{
+    color: darkturquoise ;
+}
